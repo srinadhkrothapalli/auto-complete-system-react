@@ -1,0 +1,33 @@
+.AutoSuggest {
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: space-between;
+    min-height: 30px;
+    min-width: 300px;
+    border-color: rgba(204, 204, 204, 1);
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+  }
+  
+  .SearchSuggestions {
+    position: absolute;
+    right: 0;
+    width: 300px;
+    margin-top: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  .SearchSuggestionList{
+    margin:5px;
+    cursor: pointer;
+  }
+  
+  .SearchSuggestionList:hover {
+    background-color: rgba(86, 167, 224, 0.2);
+  }
+  
+  .ErrorMessage {
+    color: rgba(220, 53, 69, 1)
+  }

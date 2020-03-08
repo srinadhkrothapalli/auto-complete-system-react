@@ -1,0 +1,37 @@
+.Pill {
+    background-color: rgba(230, 230, 230, 1);
+    display: flex;
+    border-radius: 2px;
+    margin: 2px;
+    border-radius: 25px;
+  }
+  
+  .PillText {
+    color: rgba(51, 51, 51, 1);
+    white-space: nowrap;
+    border-radius: 2px;
+    overflow: hidden;
+    padding: 3px 3px 3px 6px;
+    cursor: default;
+  }
+  
+  .PillClose {
+    align-items: center;
+    display: flex;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  
+  .TextInput {
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    min-height: 28px;
+    width: 100%;
+  }
+  
+  .TextInput:focus {
+    outline: none;
+  }
